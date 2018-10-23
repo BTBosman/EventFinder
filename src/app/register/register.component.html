@@ -1,0 +1,43 @@
+
+<body class="animated  slideInUp delay-2s">
+    <nav class="animated slideInLeft delay-2s">
+        <a routerLink="/log-in" class="animated bounce delay-2s">Home</a>
+       <a routerLink="/register" class="animated slideInLeft delay-2s">Home</a>
+       <a routerLink="/upload-event" class="animated bounce delay-2s">Upload</a>
+       <a routerLink="/view" class="animated bounce delay-2s">Events</a>
+      </nav>  
+      <router-outlet></router-outlet> 
+  
+  <section class="sec">
+    <br>
+
+  <form >
+<div align="center">
+    <h2>Please fill in your details</h2>
+  </div>
+ <br>
+    <div class="contain">
+  
+  <h3><input #name class="item" placeholder = "Your Name" type="text"></h3> 
+  <h3><input  #compName class="item" placeholder = "Company" type="text"/> </h3>
+  <h3><input #email class="item" placeholder = "E-mail" type="text"/></h3>
+  <h3><input #pass class="item" placeholder = "Password" type="password"/></h3>
+   
+</div>
+ </form>
+  <br>
+  <br>
+  <div align = "center" >
+  <button class="butt" (click)="Register(name.value, compName.value, email.value, pass.value)">
+    <b>Register</b>
+  </button>
+</div>
+<br>
+  </section>
+</body>
+    
+
+
+  
+    
+

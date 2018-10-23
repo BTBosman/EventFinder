@@ -1,0 +1,83 @@
+<div *ngFor="let i of person | async">
+<body id="bg" class="animated fadeInDown delay-2s"  >
+ <nav class="animated slideInDown delay-2s">
+    <a routerLink="/log-in" class="animated bounce delay-2s">Log-in</a>
+    <a routerLink="/upload-event" class="animated bounce delay-2s">home</a>
+    <a (click)="logOut()" class="animated bounce delay-2s">Log-Out</a>
+   <a (click)="test(i.CompanyName)" class="animated bounce delay-2s">Events</a>
+ </nav>  
+  <router-outlet></router-outlet> 
+
+
+
+
+
+  
+  <!-- <div class="head" align = "center">
+    <br>
+    <h1>Event Finder</h1>
+  </div> -->
+  <br>
+  <section id="sec" class="animated  slideInUp delay-2s">
+    <br>
+
+    <p></p>
+  
+  <form >
+      <div align="center">
+          <h2>Please Upload the Event Below</h2>
+        </div>
+        <br>
+    <div class="contain">
+  <h3><input #eventName class="item1" placeholder = "Name of Event" type="text"></h3>
+ <br>
+ <p>Description</p>
+  <h3><textarea  placeholder="Describe..." rows="4" cols="50" #eventDesc class="item2" type="text"> </textarea></h3>
+  <br>
+  <h3><input  class="item3" placeholder = "Line Up" type="file" (change)="insertImg($event)"/></h3>  
+  <br>
+  <p>From</p>
+  <h3><input #date class="item" placeholder = "Start-Date" type="date"/></h3>   
+  <br>
+  <p>Till</p>
+  <h3><input #enddate class="item" placeholder = "End-Date" type="date"/></h3>
+  <br>
+  <p><label  for="item4">Start-Time:</label> <input #startTime class="item5" placeholder = "Name" type="time"></p>
+  <br>
+  <p><label for="item5">End-Time: </label> <input  #endTime  class="item5" placeholder = "Name" type="time"></p>
+  <br>
+  <h3><input #location class="item6" type="text" placeholder = "Location" > </h3>
+  <br>
+  <h3><input #fee class="item7" placeholder = "Entrance fee" type="text" ></h3>
+    </div>
+  </form>
+  <br>
+  <br>
+  <div align = "center" >
+  <button  class="butt" (click)="upload(eventName.value, eventDesc.value, date.value, startTime.value, endTime.value,location.value, fee.value, i.CompanyName, enddate.value , i.img)" >
+    <b> View Event</b>
+  </button>
+  </div>
+
+  <br>
+  </section>
+  <br>
+  <br>
+  <br>
+
+
+  <br>
+  <br>
+<br>
+<br>
+<br>
+
+  <!-- <footer class="foot">
+
+  </footer>
+   -->
+    
+  </body>
+</div>
+
+    

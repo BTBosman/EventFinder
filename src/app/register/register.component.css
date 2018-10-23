@@ -1,0 +1,130 @@
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul li a{
+    text-align: center;
+}
+
+
+li a:hover {
+    background-color: #111;
+} */
+body{
+    background-image:url('../../assets/city-dark-dawn-248159.jpg');
+    background-size: cover;
+    background-position: center top;
+    height:100vh;
+    background-repeat: no-repeat;
+
+}
+.head{
+    background-color: rgba(122, 90, 41, 0.705);
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 5px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    box-shadow: 2px 2px 4px;
+}
+.sec{
+    box-shadow: 2px 2px 4px 1px;
+    /* border-radius: 12px; */
+    margin-left:360px;
+    margin-right: 360px;
+    margin-top: 260px;
+    background-color: whitesmoke;
+   
+    /* position: fixed; */
+    /* height: 90px; */
+}
+.butt{
+    text-align: center;
+    background-color:#7a4579;
+    padding: 15px;
+    width: 150px;
+    color: white;
+    border-radius: 12px;
+ }
+.contain{
+    text-align: center;
+    justify-content: center
+}
+h2{
+    background-color:#7a4579;
+    padding: 5px;
+    color: white;
+    border-radius: 5px; 
+    margin-left:100px;
+    margin-right: 100px;
+    box-shadow: 2px 2px 4px 1px black;
+}
+.item5{
+   /* margin: 20px; */
+    margin-left: 5px;
+    border-radius: 5px;
+    padding: 8px;
+
+    /* margin-bottom:0; */
+    /* margin-top: 0 ; */
+}
+.item{
+    /* box-shadow: 2px 2px 3px; */
+    padding: 8px;
+    border-radius: 5px;
+}
+/* .item, a{
+margin-left: 20px;
+} */
+h3{
+    margin-left: 20px;
+}
+nav{
+    /* position: fixed; */
+    width: 100%;
+    height: 50px;
+    background-color: #7a457996;
+    margin-right: 5px;
+    line-height: 50px;
+    z-index: 99;
+    text-align: center;
+   
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    line-height: 50px;
+    margin-right: 2px;
+    
+
+}
+nav :active{
+    background-color: rgba(122, 90, 41, 0.705);
+}
+
+nav :hover{
+    background-color: #7a4579;
+    transition: 0.2s;
+    padding: 12px;
+    box-shadow: 1px 1px 1px black;
+    /* display: inline-block; */
+}
+

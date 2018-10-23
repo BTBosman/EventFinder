@@ -1,0 +1,30 @@
+<body class="animated fadeIn delay-4s" >
+<nav class="animated slideInDown delay-2s">
+    <!-- <a routerLink="/log-in" class="animated bounce delay-2s">Home</a> -->
+    <a routerLink="/upload-event" class="animated bounce delay-2s">home</a>
+   <a routerLink="/view" class="animated bounce delay-2s">Events</a>
+ </nav>  
+  <router-outlet></router-outlet> 
+
+  <br>
+  <br>
+  <br>
+ 
+  <section id="sec" class="animated  slideInUp delay-2s">
+    <ul  *ngFor="let i of events | async">
+      <li>
+    <div class="contain" align = "center">
+      <img src="{{i.img}}" ><br>
+<!-- <div class="cont">Event Name<br>
+<label>Place/Location</label><br>
+<label>Date and Time</label>
+</div> -->
+<button class="butt"  (click)="Event(i.key)">
+  <b> View Event</b>
+</button>
+</div>
+</li>
+  </ul>
+  </section>
+
+</body>

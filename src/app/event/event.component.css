@@ -1,0 +1,87 @@
+body{
+    background-image:linear-gradient(rgba(29, 21, 21, 0.5), rgba(0,0,0,0.5),rgba(143, 143, 143, 0.5)),url("../../assets/SGTower-1709.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position:center;
+    height:100vh;
+    background-repeat: no-repeat;
+
+}
+img{
+    /* box-shadow: 2px 2px 4px; */
+    /* background-image:linear-gradient(#F53D4E,#1e2a78), url('../../assets/imgs/video.jpg');   */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    text-align: center;
+    /* margin-left:100px;
+    margin-right: 100px; */
+    padding: 20px;
+    height: 35vh;
+    width: 25vh;
+    background-attachment: fixed;
+
+}
+.contain{
+    margin-left: 560px;
+    margin-top: 260px;
+    margin-right: 560px;
+    background-size: contain;
+    position: relative;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.856);
+    /* border: 3px solid gold; */
+    padding: 10px;
+    box-shadow: 2px 2px 4px 1px;
+    border-radius: 15px;
+    /* height: 100vh; */
+}
+.butt{
+   background-color:#7a4579;
+   padding: 10px;
+   width: 150px;
+   border-radius: 12px;
+}
+b{
+    color: whitesmoke;
+}
+.cont{
+    position: absolute;
+    top: 36%;
+    font-size: 2.0em;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+}
+nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #7a457996;
+    margin-right: 5px;
+    line-height: 50px;
+    z-index: 99;
+    text-align: center;
+   
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    line-height: 50px;
+    margin-right: 2px;
+    
+
+}
+nav :active{
+    background-color: rgba(122, 90, 41, 0.705);
+}
+
+nav :hover{
+    background-color: #7a4579;
+    transition: 0.2s;
+    padding: 12px;
+    box-shadow: 1px 1px 1px black;
+    /* display: inline-block; */
+}

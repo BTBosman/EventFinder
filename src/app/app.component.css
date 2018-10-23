@@ -1,0 +1,80 @@
+*{
+    font-family: 'Exo 2', sans-serif;
+}
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+li a:hover {
+    background-color: #111;
+} */
+/* body{
+    background-position: fixed;
+    background-image: url('../assets/Pics/6835100-landscape.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 40vh;
+  
+} */
+.head{
+    background-color: #8b104e;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 5px;
+    color: whitesmoke;
+    margin-top: 70px;
+    border-bottom-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    box-shadow: 2px 2px 4px black;
+}
+nav{
+    /* position: fixed; */
+    width: 100%;
+    height: 50px;
+    background-color: #8b104e;
+    margin-right: 5px;
+    line-height: 50px;
+    z-index: 99;
+    text-align: center;
+   
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+    line-height: 50px;
+    margin-right: 2px;
+    
+
+}
+nav :active{
+    background-color: rgba(122, 90, 41, 0.705);
+}
+
+nav :hover{
+    background-color: #7a4579;
+    transition: 0.2s;
+    padding: 12px;
+    box-shadow: 1px 1px 1px black;
+    /* display: inline-block; */
+}
